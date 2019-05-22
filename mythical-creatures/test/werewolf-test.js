@@ -106,8 +106,6 @@ describe('Werewolf', function() {
     assert.equal(werewolf.eat(victim), 'Human\'s don\'t eat other humans');
     assert.equal(werewolf.hungry, false);
     assert.equal(victim.alive, true);
-
-    // your code here
   });
 });
 
