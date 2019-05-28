@@ -9,6 +9,7 @@ class Ogre {
     person.encounterCounter++;
     if (person.encounterCounter === 3) {
       this.swingAt(person);
+    }
     if (person.encounterCounter === 6) {
       this.swingAt(person);
     }
@@ -19,6 +20,10 @@ class Ogre {
     if (this.swings === 2) {
       person.knockedOut = true;
     }
+  }
+
+  apologize(person) {
+    person.knockedOut = !person.knockedOut;
   }
 }
 

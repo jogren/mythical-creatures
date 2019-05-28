@@ -34,7 +34,6 @@ describe('Medusa', function() {
 
     assert.equal(medusa.statues.length, 1);
     assert.equal(medusa.statues[0].name, 'Jhun');
-
   });
 
   it('should only be able to have three victims as a statue', function() {

@@ -11,7 +11,6 @@ class Wizard {
   }
 
   incantation(power) {
-    this.power = power;
     return power.toUpperCase();
   }
 
